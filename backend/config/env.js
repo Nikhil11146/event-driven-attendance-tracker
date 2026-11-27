@@ -1,7 +1,7 @@
 import dotenv from 'dotenv'
 
 // set development and production switch later
-dotenv.config({ path: `.env.${process.env.NODE_ENV || 'development'}.local` });
+dotenv.config({ path: `.env` });
 
 export const {
     PORT,
