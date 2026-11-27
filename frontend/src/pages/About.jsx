@@ -23,28 +23,6 @@ export default function About() {
                     calculations.
                 </p>
             </div>
-
-            <div className="about-section">
-                <h2>Built By</h2>
-
-                <p>
-                    Hi, I'm Nikhil, a Computer Science student and software
-                    developer passionate about building practical applications
-                    that solve everyday problems.
-                </p>
-
-                <p>
-                    Attendance Tracker was created as a personal project to
-                    improve productivity while exploring modern web development
-                    technologies such as React, Express.js, MongoDB, and REST
-                    APIs.
-                </p>
-
-                <p>
-                    This project continues to evolve with new features,
-                    improved user experience, and better performance over time.
-                </p>
-            </div>
         </div>
     );
 }

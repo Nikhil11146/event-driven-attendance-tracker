@@ -4,11 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16898b1e-dea7-497e-af79-05bbd13ee242" name="Changes" comment="init">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Attendance.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="16898b1e-dea7-497e-af79-05bbd13ee242" name="Changes" comment="event based models, controllers and middleware">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/middlewares/attendance.middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/attendance.model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/routes/attendance.routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/AttendanceCalendar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/AttendanceLogModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/BulkLogModal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/AttendanceLogs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/pages/SubjectDetail.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/utils/attendanceUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/subject.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/subject.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/user.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/middlewares/auth.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/middlewares/auth.middleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/middlewares/error.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/middlewares/error.middleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/attendence.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/attendance.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/models/subject.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/subject.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/routes/user.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/user.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/api/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/api/axios.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/CreateWindow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/CreateWindow.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/EditForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/EditForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/SubjectCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/SubjectCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/context/AuthContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/context/AuthContext.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/context/SettingsContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/context/SettingsContext.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/context/SubjectContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/context/SubjectContext.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Settings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Settings.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/styles/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,67 +55,67 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Nikhil11146/Attendance-Tracker-Backend.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/Nikhil11146/event-driven-attendance-tracker.git&quot;,
     &quot;accountId&quot;: &quot;111ae889-224e-4df8-a044-d41e2fcc9af2&quot;
   }
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0000000000000968" />
-      <entry key="S30" value="1.00011612620058" />
-      <entry key="S60" value="1.0305132720258903" />
-      <entry key="M2" value="1.57171478034233" />
-      <entry key="M5" value="4.504024814494174" />
-      <entry key="M10" value="7.470465647723532" />
-      <entry key="M15" value="8.945936477075584" />
-      <entry key="M30" value="10.762501419939849" />
-      <entry key="H1" value="11.822954079983067" />
-      <entry key="H2" value="12.39612514674559" />
-      <entry key="H4" value="12.694122801327543" />
-      <entry key="D1" value="12.948464413989184" />
-      <entry key="W1" value="12.992624038715476" />
+      <entry key="MS100" value="1.0001026985527932" />
+      <entry key="MS500" value="1.262560834802768" />
+      <entry key="S2" value="2.7677764236224354" />
+      <entry key="S5" value="5.7696099004883115" />
+      <entry key="S10" value="9.399767099522746" />
+      <entry key="S30" value="14.244076971622928" />
+      <entry key="S60" value="15.982409549709814" />
+      <entry key="M2" value="17.215290202708676" />
+      <entry key="M5" value="21.45004790211148" />
+      <entry key="M10" value="27.455103904038918" />
+      <entry key="M15" value="31.240910789550707" />
+      <entry key="M30" value="38.084618983479665" />
+      <entry key="H1" value="45.223963287065466" />
+      <entry key="H2" value="51.161606511201306" />
+      <entry key="H4" value="55.12611290627209" />
+      <entry key="D1" value="59.11470210733635" />
+      <entry key="W1" value="59.871596907050304" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="S2" value="3.841866017386918E-123" />
+      <entry key="S5" value="1.567702599180337E-49" />
+      <entry key="S10" value="6.423685935618857E-25" />
+      <entry key="S30" value="1.768276633948738E-8" />
+      <entry key="S60" value="2.2990194983995118E-4" />
+      <entry key="M2" value="0.026250380331599647" />
+      <entry key="M5" value="0.4506923073580964" />
+      <entry key="M10" value="1.1627675858729118" />
+      <entry key="M15" value="1.5947794647443119" />
+      <entry key="M30" value="2.187308704885817" />
+      <entry key="H1" value="2.5616244053988653" />
+      <entry key="H2" value="2.7721600436392264" />
+      <entry key="H4" value="2.883830718782198" />
+      <entry key="D1" value="2.9803184475918294" />
+      <entry key="W1" value="2.9971804117047807" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9395227492140118" />
-      <entry key="MS500" value="0.9876008614453725" />
-      <entry key="S2" value="0.9968856972203758" />
-      <entry key="S5" value="0.9987531130852756" />
-      <entry key="S10" value="0.999376362080607" />
-      <entry key="S30" value="0.9999080470326907" />
-      <entry key="S60" value="1.0303870205427945" />
-      <entry key="M2" value="1.5714530731054668" />
-      <entry key="M5" value="4.503491764112159" />
-      <entry key="M10" value="7.469983014048593" />
-      <entry key="M15" value="8.945543125266399" />
-      <entry key="M30" value="10.762260689229459" />
-      <entry key="H1" value="11.82282085950695" />
-      <entry key="H2" value="12.396055062918549" />
-      <entry key="H4" value="12.694086856497767" />
-      <entry key="D1" value="12.948458294749344" />
-      <entry key="W1" value="12.99262316135281" />
+      <entry key="MS100" value="0.9527351567951149" />
+      <entry key="MS500" value="1.2500079447232177" />
+      <entry key="S2" value="2.7605495374059585" />
+      <entry key="S5" value="5.763751148900069" />
+      <entry key="S10" value="9.395100446668506" />
+      <entry key="S30" value="14.241756325961195" />
+      <entry key="S60" value="15.981337550523271" />
+      <entry key="M2" value="17.240615280259316" />
+      <entry key="M5" value="21.898941059267592" />
+      <entry key="M10" value="28.615807072954883" />
+      <entry key="M15" value="32.83382124341559" />
+      <entry key="M30" value="40.27057549719432" />
+      <entry key="H1" value="47.784715659189345" />
+      <entry key="H2" value="53.933254298552825" />
+      <entry key="H4" value="58.009662873215134" />
+      <entry key="D1" value="62.094969714924765" />
+      <entry key="W1" value="62.868769947252154" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -99,23 +127,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.runtime&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "settings.editor.selected.configurable": "settings.javascript.runtime"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="N:\Nikhil\Studies\Coding\MERN\event-driven-attendence-tracker\backend" />
@@ -154,6 +184,8 @@
       <updated>1795756320452</updated>
       <workItem from="1795756322984" duration="376000" />
       <workItem from="1795756726639" duration="1027000" />
+      <workItem from="1795757776598" duration="1089000" />
+      <workItem from="1795795740829" duration="4880000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -171,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795757425462</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init">
+      <option name="closed" value="true" />
+      <created>1795757868655</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1795757868655</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +230,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="event based models, controllers and middleware" />
+    <option name="LAST_COMMIT_MESSAGE" value="event based models, controllers and middleware" />
   </component>
 </project>

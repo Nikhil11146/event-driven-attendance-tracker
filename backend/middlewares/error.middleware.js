@@ -1,8 +1,25 @@
 export const errorMiddleware = (err, req, res, next) => {
     console.error(err);
 
-    res.status(err.statusCode || err.status || 500).json({
+    let statusCode = err.statusCode || err.status || 500;
+    let message = err.message || 'Server error';
+
+    if (err.name === 'CastError') {
+        statusCode = 400;
+        message = 'Invalid ID format';
+    } else if (err.name === 'ValidationError') {
+        statusCode = 400;
+        message = Object.values(err.errors).map((e) => e.message).join(', ');
+    } else if (err.code === 11000) {
+        statusCode = 409;
+        message = 'Duplicate field value entered';
+    } else if (err.name === 'JsonWebTokenError' || err.name === 'TokenExpiredError') {
+        statusCode = 401;
+        message = 'Invalid token';
+    }
+
+    res.status(statusCode).json({
         success: false,
-        message: err.message || 'Server error'
+        message
     });
-}
+};

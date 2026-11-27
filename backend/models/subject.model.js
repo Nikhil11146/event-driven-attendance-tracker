@@ -8,29 +8,15 @@ const subjectSchema = new mongoose.Schema({
     },
     faculty: {
         type: String,
+        trim: true
     },
     dept: {
         type: String,
         enum: ['CSE', 'ECE', 'MECH', 'CIVIL', 'CHEM', 'BIOTECH', 'PE', 'Others']
     },
-    totalClasses: {
-        type: Number,
-        required: true,
-        min: [0, 'Minimum: 0']
-    },
-    attendedClasses: {
-        type: Number,
-        required: true,
-        min: [0, 'Minimum: 0'],
-        validate: {
-            validator(value) {
-                return value <= this.totalClasses;
-            },
-            message: 'The attended classes must be lesser than or equal to total classes'
-        }
-    },
     credits: {
         type: Number,
+        min: [0, 'Minimum: 0']
     },
     user: {
         type: mongoose.Schema.Types.ObjectId,

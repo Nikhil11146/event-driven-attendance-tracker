@@ -4,6 +4,7 @@ import { PORT} from "./config/env.js";
 import userRouter from "./routes/user.routes.js";
 import subjectRouter from "./routes/subject.routes.js";
 import authRouter from "./routes/auth.routes.js";
+import attendanceRouter from "./routes/attendance.routes.js";
 import {errorMiddleware} from "./middlewares/error.middleware.js";
 import {connectDB} from "./database/mongodb.js";
 import {authMiddleware} from "./middlewares/auth.middleware.js";
@@ -22,6 +23,7 @@ app.use(cors());
 app.use('/v1/api/auth', authRouter);
 app.use('/v1/api/users', authMiddleware, userRouter);
 app.use('/v1/api/subjects', authMiddleware, subjectRouter);
+app.use('/v1/api/attendance', authMiddleware, attendanceRouter);
 
 app.use(errorMiddleware);
 
