@@ -5,38 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16898b1e-dea7-497e-af79-05bbd13ee242" name="Changes" comment="event based models, controllers and middleware">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/middlewares/attendance.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/models/attendance.model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/routes/attendance.routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/AttendanceCalendar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/AttendanceLogModal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/BulkLogModal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/AttendanceLogs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/SubjectDetail.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/utils/attendanceUtils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/subject.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/subject.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/user.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/middlewares/auth.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/middlewares/auth.middleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/middlewares/error.middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/middlewares/error.middleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/attendence.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/attendance.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/models/subject.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/subject.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/user.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/user.routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/api/axios.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/api/axios.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/CreateWindow.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/CreateWindow.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/EditForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/EditForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/SubjectCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/SubjectCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/context/AuthContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/context/AuthContext.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/context/SettingsContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/context/SettingsContext.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/context/SubjectContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/context/SubjectContext.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/Settings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/Settings.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/styles/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/styles/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +154,7 @@
       <workItem from="1795756322984" duration="376000" />
       <workItem from="1795756726639" duration="1027000" />
       <workItem from="1795757776598" duration="1089000" />
-      <workItem from="1795795740829" duration="4880000" />
+      <workItem from="1795795740829" duration="5948000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -211,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795757868655</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="event based models, controllers and middleware">
+      <option name="closed" value="true" />
+      <created>1795806535250</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1795806535251</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -6,10 +6,6 @@ export default function Footer() {
                     <span className="footer-title">
                         Attendance Tracker
                     </span>
-
-                    <span className="footer-text">
-                        Built by Nikhil
-                    </span>
                 </div>
 
                 <div className="footer-right">
